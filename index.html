@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário de cadastro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <div class="paragraph">
+                <p>Não é associado? Faça seu cadastro</p>
+            </div>
+
+            <form>
+                <div class="part1">
+                    <div class="box">
+                        <div>
+                            <label for="nome">Nome:</label>
+                        </div>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="box">
+                        <div>
+                            <label for="fullNome">Nome<br> Completo:</label>
+                        </div>
+                        <input type="text" id="fullNome" name="fullNome" required>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <label for="cpf">CPF:</label>
+                        </div>
+                        <input type="text" id="cpf" name="cpf" required>
+                    </div>
+                    <div class="box">
+                        <div>
+
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <label for="website">Website:</label>
+                        </div>
+                        <input type="text" id="website" name="website">
+                    </div>
+                    <div class="box">
+                        <div>
+                            <label for="address">Endereço:</label>
+                        </div>
+                        <input type="text" id="address" name="address">
+                    </div>
+                </div>
+
+
+                <div class="part2">
+                    <div>
+                        <div class="col2">
+                            <div class="box">
+                                <div>
+                                    <label for="bairro">Bairro:</label>
+                                </div>
+                                <input type="text" id="bairro" name="bairro" required>
+                            </div>
+
+                            <div class="box">
+                                <div>
+                                    <label for="city">Cidade:</label>
+                                </div>
+                                <input type="text" id="city" name="city" required>
+                            </div>
+                        </div>
+                        <!--  -->
+
+                        <div class="col2">
+                            <div class="box">
+                                <div>
+                                    <label for="cep">Cep:</label>
+                                </div>
+                                <input type="text" id="cep" name="cep" required>
+                            </div>
+
+                            <div class="box">
+                                <label for="" class="marginRight">UF</label>
+                                <select name="estados">
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AP">AP</option>
+                                    <option value="AM">AM</option>
+                                    <option value="BA" selected>BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ES">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MT">MT</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MG">MG</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PR">PR</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RS">RS</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SP">SP</option>
+                                    <option value="SE">SE</option>
+                                    <option value="TO">TO</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!--  -->
+
+                        <div class="col2">
+                            <div class="box">
+                                <div>
+                                    <label for="phone">Telefone:</label>
+                                </div>
+                                <input type="text" id="phone" name="phone" required>
+                            </div>
+
+                            <div class="box">
+                                <div>
+                                    <label for="fax">Fax:</label>
+                                </div>
+                                <input type="text" id="fax" name="fax" required>
+                            </div>
+                        </div>
+
+
+                        <!--  -->
+
+                        <div class="col2">
+                            <div class="box">
+                                <div>
+                                    <label for="dateOfBirth">Data<br>Nascimento:</label>
+                                </div>
+                                <input type="text" id="dateOfBirth" name="dateOfBirth" required>
+                            </div>
+
+                            <div class="box-radio">
+                                <div class="box-radio-content">
+                                    <label for="" class="marginRadio">Sexo:</label>
+                                    <label for="m"> <input type="radio" name="sexo" id="m" value="M"> M</label>
+                                    <label for="f"> <input type="radio" name="sexo" id="f" value="F"> F</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col2">
+                            <div class="box">
+                                <div>
+                                    <label for="cellPhone">Celular:</label>
+                                </div>
+                                <input type="text" id="cellPhone" name="cellPhone" required>
+                            </div>
+
+                            <div class="estado-civil">
+                                <label for="">Est.Civil</label>
+                                <select name="estado_civil">
+                                    <option value="solteiro">Solteiro(a)</option>
+                                    <option value="casado">Casado(a)</option>
+                                    <option value="separado">Separado(a)</option>
+                                    <option value="divorciado">Divorciado(a)</option>
+                                    <option value="viuvo">Viúvo(a)</option>
+                                    <option value="uniao_estavel">União Estável</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col2">
+                            <div class="box">
+                                <div>
+                                    <label for="login">Login:</label>
+                                </div>
+                                <input type="text" id="login" name="login" required>
+                            </div>
+
+                            <div class="box">
+                                <div>
+                                    <label for="password">Senha:</label>
+                                </div>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+
+                <div class="box-checkbox">
+                    <label for="tecn"><input type="checkbox" name="tecn" id="tecn">Tecnologia</label>
+                    <label for="esp"><input type="checkbox" name="esp" id="esp">Esportes</label>
+                    <label for="auto"><input type="checkbox" name="auto" id="auto">Automóveis</label>
+                    <label for="culinaria"><input type="checkbox" name="culinaria" id="culinaria">Culinária</label>
+                    <label for="politica"><input type="checkbox" name="politica" id="politica">Política</label>
+                    <label for="policial"><input type="checkbox" name="policial" id="policial">Policial</label>
+                    <label for="tempo"><input type="checkbox" name="tempo" id="tempo">Tempo</label>
+                    <label for="cultural"><input type="checkbox" name="cultural" id="cultural">Cultura</label>
+                    <label for="economia"><input type="checkbox" name="economia" id="economia">Economia</label>
+                    <label for="jogos"><input type="checkbox" name="jogos" id="jogos">Jogos</label>
+                    <label for="educacao"><input type="checkbox" name="educacao" id="educacao">Educação</label>
+                    <label for="viagem"><input type="checkbox" name="viagem" id="viagem">Viagem</label>
+                    <label for="empregos"><input type="checkbox" name="empregos" id="empregos">Empregos</label>
+                    <label for="moda"><input type="checkbox" name="moda" id="moda">Moda e Estilo</label>
+                </div>
+                <div>
+                    <label for="cadastro">
+                        <input type="checkbox" name="cadastro" id="cadastro">
+                        Li as regras de cadastro e autorizo a criação do usuário
+                    </label>
+                </div>
+        </div>
+        <button type="submit">Confirmar</button>
+        <button type="button">Retornar</button>
+        </form>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
